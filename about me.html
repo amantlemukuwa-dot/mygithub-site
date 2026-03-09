@@ -14,30 +14,113 @@
 
 <body>
 
-<nav class="navbar navbar-dark bg-dark">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container">
+
 <a class="navbar-brand" href="index.html">Kevin Dev</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+</div>
 </div>
 </nav>
 
+<!-- About Section -->
 <main class="container mt-5">
 
-<h1>About Me</h1>
+<div class="row align-items-center">
+
+<!-- Profile Image -->
+<div class="col-md-4 text-center">
+
+<img src="images/profile.jpg"
+class="img-fluid rounded-circle shadow"
+width="220"
+alt="Profile Picture">
+
+</div>
+
+<!-- About Text -->
+<div class="col-md-8">
+
+<h1 class="mb-3">About Me</h1>
 
 <p>
-I am an ICT student learning web development and programming.
-My goal is to become a professional developer and build useful applications.
+Hello! I am an ICT student passionate about technology and software development.
+I enjoy learning how to build modern websites and applications.
 </p>
 
 <p>
-Currently I am learning HTML, CSS, Bootstrap and GitHub Pages hosting.
+My goal is to become a professional developer and create useful
+digital solutions that help people and businesses.
 </p>
+
+<p>
+Currently I am improving my skills in HTML, CSS, Bootstrap,
+and website hosting using GitHub Pages.
+</p>
+
+</div>
+
+</div>
+
+<!-- Skills Section -->
+<section class="mt-5">
+
+<h2 class="text-center mb-4">My Skills</h2>
+
+<p>HTML</p>
+<div class="progress mb-3">
+<div class="progress-bar bg-success" style="width:85%">85%</div>
+</div>
+
+<p>CSS</p>
+<div class="progress mb-3">
+<div class="progress-bar bg-info" style="width:75%">75%</div>
+</div>
+
+<p>Bootstrap</p>
+<div class="progress mb-3">
+<div class="progress-bar bg-warning" style="width:70%">70%</div>
+</div>
+
+<p>Java Programming</p>
+<div class="progress mb-3">
+<div class="progress-bar bg-danger" style="width:65%">65%</div>
+</div>
+
+</section>
 
 </main>
 
-<footer class="text-center mt-5">
+<!-- Footer -->
+<footer class="text-center mt-5 mb-3">
+
 <hr>
-<p>&copy; 2026 Amantle Mukuwa</p>
+
+<p>&copy; 2026 Amantle Mukuwa. All rights reserved.</p>
+
 </footer>
 
 </body>
